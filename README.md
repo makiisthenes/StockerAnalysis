@@ -9,7 +9,7 @@ This project allows you to:
 
 1) Analyse various financial metrics such as in Cashflow Statements, Income Statements and Balance Sheets for the last 4 years.
 
-2) Allows you to see what insider trading has occured for the last 2 years abosultely free.
+2) Allows you to see what insider trading has occured for the last 2 years absolutely free.
 
 3) You can also also upload your yahoo finance portfolio and see visualised statistics about the distrubution of your stocks sectors are in.
 

@@ -57,7 +57,7 @@ Cashflow statement check doesn't have any graphs or outputs yet, but does have v
 
 -----
 ### 2) Insider Trading Analysis
-*Only requirement is that you must have Excel installed on your computer for this.*
+*Only requirement is that you must have Excel installed on your computer for this. Only works for US Companies*
 
 *Go to main.py for example code.* 
 Get Insider Info on Netflix for the last 2 years.
@@ -72,6 +72,11 @@ Get Insider Info on Netflix for the last 2 years.
 -----
 ### 3) Portfolio Analysis parsing and processing yf Portfolio CSV
 *Go to portfolioAnalysis.py for example code.*
+
+![image](https://user-images.githubusercontent.com/52138450/133311466-519023e0-c2fd-458c-9398-834983518bdc.png)
+
+*Export CSV files from Yahoo finance, usually name qoutes.csv and add to root directory.*
+
 ![image](https://user-images.githubusercontent.com/52138450/133258398-7eff42a9-62d4-4812-9178-398c1a3e5ac2.png)
 
 ` 300,000,000 >= Small Market Cap <= 2,000,000,000`

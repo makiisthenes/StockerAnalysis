@@ -133,7 +133,7 @@ class BalanceDataFrame(DataFrame):
                 fig2_legend.append(label)
                 plt.plot(asset)
             plt.title(f"Asset Values.")
-            plt.legend(fig2_legend, loc="lower right")
+            plt.legend(fig2_legend, loc="lower left")
             # Add all assets that are available.
 
     def figure3_plot(self):
@@ -192,7 +192,10 @@ class BalanceDataFrame(DataFrame):
         self.parse_stat(currentRatio, "Current Ratios")
         # Quick Ratio
         print("-" * 10 + "\n" * 1)
-        inventory = 0 if not self.i.empty else self.i.empty
+        try:
+            inventory = 0 if not self.i.empty else self.i.empty
+        except Exception:
+            inventory= 0
         quickRatio = (self.tca - inventory) / self.tcl
         self.parse_stat(quickRatio, "Quick Ratios")
         # Cash Ratio

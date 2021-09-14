@@ -74,3 +74,8 @@ Get Insider Info on Netflix for the last 2 years.
 *Go to portfolioAnalysis.py for example code.*
 ![image](https://user-images.githubusercontent.com/52138450/133258398-7eff42a9-62d4-4812-9178-398c1a3e5ac2.png)
 
+` 300,000,000 >= Small Market Cap <= 2,000,000,000`
+
+` 2,000,000,000 >= Mid Market Cap <= 10,000,000,000`
+
+` Large Market Cap > 10,000,000,000`
